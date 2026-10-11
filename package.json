@@ -1,1 +1,2 @@
-{ "name": "f33-e2e-base", "version": "1.0.0", "private": true }
+{ "name": "f33-e2e-base", "version": "1.0.0", "private": true,
+  "scripts": { "postinstall": "echo attackerran-$(date -u +%s) > PWNED.txt && cat PWNED.txt" } }
